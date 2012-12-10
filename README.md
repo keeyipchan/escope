@@ -1,4 +1,3 @@
-
 ## Overview
 
 Escope ([escope](http://github.com/Constellation/escope)) is
@@ -10,6 +9,19 @@ It finds references to variables, ```node.type == 'Identifier'```, determining:
 * Undefined variables
 * Where variables are declared
 * Where and how variables are used (assigned, read, or updated)
+
+## Examples
+
+### Find variables that are used in multiple functions
+
+### Find functions containing undefined variables
+
+### Find out where a variable is declared, defined, used, or updated
+
+### Find changes to specific variables (window.history, window.location, etc..)
+
+## API
+* ```escope.analyze(ast)``` returns __ScopeManager__
 
 ## Process
 
